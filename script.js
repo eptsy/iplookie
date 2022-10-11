@@ -1,5 +1,5 @@
-let APIKEY = 'bb61c8d414f87109181535dcac81d8fa';
-fetch(`http://api.ipstack.com/check?access_key=${APIKEY}`).then(
+let APIKEY = '641ec2c5b392030a75d78901c8b1292e';
+fetch(`https://api.ipstack.com/check?access_key=${APIKEY}`).then(
     res => res.json()
 ).then(data => {
     console.log(data);
